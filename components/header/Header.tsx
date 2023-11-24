@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => (
-  <header className="py-10 flex justify-between items-center uppercase">
+  <header className="py-10 flex justify-between items-center uppercase absolute top-0 left-0 right-0">
     <h1 className="text-3xl font-black">Glasses</h1>
     <ul className="flex gap-24 justify-between items-center uppercase text-xl font-medium">
       <li className="cursor-pointer">Frames</li>

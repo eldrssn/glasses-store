@@ -1,3 +1,9 @@
+import { Collection } from '@/components/main/collection';
+
 export default function Home() {
-  return <main>xcfsdfsdsd</main>;
+  return (
+    <main>
+      <Collection />
+    </main>
+  );
 }
