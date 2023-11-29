@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className="ml-20 mr-20 relative">
+      <body>
         <Header />
         <Main />
         <NextScript />

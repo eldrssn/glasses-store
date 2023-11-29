@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import { collection } from './constants';
 
-const Collection = () => (
-  <section className="border-solid border-2 border-sky-500 h-screen">
+export const Collection = () => (
+  <section className="h-screen snap-center">
     <div className="pt-60 pb-20 flex flex-col gap-3 justify-center items-center">
       <h2 className="font-bold text-4xl">Make ‘em say Dammn!</h2>
       <p className="text-2xl">Explore our hottest collection</p>
@@ -22,5 +22,3 @@ const Collection = () => (
     </ul>
   </section>
 );
-
-export { Collection };
