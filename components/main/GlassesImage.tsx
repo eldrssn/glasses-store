@@ -12,7 +12,7 @@ export const GlassesImage: FC<IGlassesImage> = ({ x, position }) => (
   <div className="absolute bottom-0 w-full h-[100dvh]">
     <motion.div
       style={withCssVar({ '--x': x, position })}
-      className="top-1/2 left-1/2 transform -translate-x-[var(--x)] -translate-y-1/2 z-20"
+      className="top-[50dvh] left-1/2 transform -translate-x-[var(--x)] -translate-y-1/2 z-20"
     >
       <Image
         src="/images/glasses-animation.png"
