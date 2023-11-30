@@ -31,6 +31,7 @@ export const CollectionItem: FC<ICollectionItem> = ({ item, i }) => (
     whileInView="onscreen"
     variants={cardVariants(i)}
     className="relative"
+    viewport={{ once: true }}
   >
     <Image src={item.img} alt="glasses" width={361} height={361} />
     <div className="absolute bottom-7 left-7">
