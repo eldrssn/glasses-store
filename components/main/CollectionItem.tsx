@@ -26,7 +26,12 @@ interface ICollectionItem {
 }
 
 export const CollectionItem: FC<ICollectionItem> = ({ item, i }) => (
-  <motion.li variants={cardVariants(i)} className="relative">
+  <motion.li
+    initial="offscreen"
+    whileInView="onscreen"
+    variants={cardVariants(i)}
+    className="relative"
+  >
     <Image src={item.img} alt="glasses" width={361} height={361} />
     <div className="absolute bottom-7 left-7">
       <p>{item.title}</p>
